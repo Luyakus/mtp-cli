@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220C06EF22D6DA8F0058D065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C06EE22D6DA8F0058D065 /* main.m */; };
+		220C06F722D6DC200058D065 /* AHSMtpCmdArgvParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C06F622D6DC200058D065 /* AHSMtpCmdArgvParser.m */; };
+		220C070522D714610058D065 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 220C070422D714610058D065 /* libiconv.tbd */; };
+		220C078E22DC23B40058D065 /* AHSMtpDetectDeviceCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C078D22DC23B40058D065 /* AHSMtpDetectDeviceCmd.m */; };
+		220C079122DC23D60058D065 /* AHSMtpSendFileToDeviceCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C079022DC23D60058D065 /* AHSMtpSendFileToDeviceCmd.m */; };
+		220C079422DC23F30058D065 /* AHSMtpCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C079322DC23F30058D065 /* AHSMtpCmd.m */; };
+		220C079722DC2C750058D065 /* AHSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C079622DC2C750058D065 /* AHSLog.m */; };
+		220C079A22DC5D4E0058D065 /* AHSMtpDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C079922DC5D4E0058D065 /* AHSMtpDevice.m */; };
+		220C079F22DC66B70058D065 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C079D22DC66B70058D065 /* YYClassInfo.m */; };
+		220C07A022DC66B70058D065 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C079E22DC66B70058D065 /* NSObject+YYModel.m */; };
+		220C07A122DC67520058D065 /* libmtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220C06FA22D6E96D0058D065 /* libmtp.a */; };
+		220C07A222DC67520058D065 /* libusb-1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220C070022D712710058D065 /* libusb-1.0.a */; };
+		220C07A522DC739B0058D065 /* AHSMtpPrintDevideCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C07A422DC739B0058D065 /* AHSMtpPrintDevideCmd.m */; };
+		220C07A822DC873B0058D065 /* AHSMtpCreatFolderCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 220C07A722DC873B0058D065 /* AHSMtpCreatFolderCmd.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		220C06E922D6DA8F0058D065 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		220C06EB22D6DA8F0058D065 /* mtp-cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mtp-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220C06EE22D6DA8F0058D065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		220C06F522D6DC200058D065 /* AHSMtpCmdArgvParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSMtpCmdArgvParser.h; sourceTree = "<group>"; };
+		220C06F622D6DC200058D065 /* AHSMtpCmdArgvParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSMtpCmdArgvParser.m; sourceTree = "<group>"; };
+		220C06FA22D6E96D0058D065 /* libmtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmtp.a; sourceTree = "<group>"; };
+		220C06FC22D6E9760058D065 /* libmtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmtp.h; sourceTree = "<group>"; };
+		220C070022D712710058D065 /* libusb-1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libusb-1.0.a"; sourceTree = "<group>"; };
+		220C070222D712790058D065 /* libusb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libusb.h; sourceTree = "<group>"; };
+		220C070422D714610058D065 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		220C074622D71FDB0058D065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		220C078C22DC23B40058D065 /* AHSMtpDetectDeviceCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSMtpDetectDeviceCmd.h; sourceTree = "<group>"; };
+		220C078D22DC23B40058D065 /* AHSMtpDetectDeviceCmd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSMtpDetectDeviceCmd.m; sourceTree = "<group>"; };
+		220C078F22DC23D60058D065 /* AHSMtpSendFileToDeviceCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSMtpSendFileToDeviceCmd.h; sourceTree = "<group>"; };
+		220C079022DC23D60058D065 /* AHSMtpSendFileToDeviceCmd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSMtpSendFileToDeviceCmd.m; sourceTree = "<group>"; };
+		220C079222DC23F30058D065 /* AHSMtpCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSMtpCmd.h; sourceTree = "<group>"; };
+		220C079322DC23F30058D065 /* AHSMtpCmd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSMtpCmd.m; sourceTree = "<group>"; };
+		220C079522DC2C750058D065 /* AHSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSLog.h; sourceTree = "<group>"; };
+		220C079622DC2C750058D065 /* AHSLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSLog.m; sourceTree = "<group>"; };
+		220C079822DC5D4E0058D065 /* AHSMtpDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSMtpDevice.h; sourceTree = "<group>"; };
+		220C079922DC5D4E0058D065 /* AHSMtpDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSMtpDevice.m; sourceTree = "<group>"; };
+		220C079B22DC66B70058D065 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		220C079C22DC66B70058D065 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		220C079D22DC66B70058D065 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		220C079E22DC66B70058D065 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		220C07A322DC739B0058D065 /* AHSMtpPrintDevideCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSMtpPrintDevideCmd.h; sourceTree = "<group>"; };
+		220C07A422DC739B0058D065 /* AHSMtpPrintDevideCmd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSMtpPrintDevideCmd.m; sourceTree = "<group>"; };
+		220C07A622DC873B0058D065 /* AHSMtpCreatFolderCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHSMtpCreatFolderCmd.h; sourceTree = "<group>"; };
+		220C07A722DC873B0058D065 /* AHSMtpCreatFolderCmd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHSMtpCreatFolderCmd.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220C06E822D6DA8F0058D065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C07A122DC67520058D065 /* libmtp.a in Frameworks */,
+				220C07A222DC67520058D065 /* libusb-1.0.a in Frameworks */,
+				220C070522D714610058D065 /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220C06E222D6DA8F0058D065 = {
+			isa = PBXGroup;
+			children = (
+				220C06ED22D6DA8F0058D065 /* mtp-cli */,
+				220C06EC22D6DA8F0058D065 /* Products */,
+				220C070322D714610058D065 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		220C06EC22D6DA8F0058D065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220C06EB22D6DA8F0058D065 /* mtp-cli */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220C06ED22D6DA8F0058D065 /* mtp-cli */ = {
+			isa = PBXGroup;
+			children = (
+				220C079522DC2C750058D065 /* AHSLog.h */,
+				220C079622DC2C750058D065 /* AHSLog.m */,
+				220C079222DC23F30058D065 /* AHSMtpCmd.h */,
+				220C079322DC23F30058D065 /* AHSMtpCmd.m */,
+				220C06F522D6DC200058D065 /* AHSMtpCmdArgvParser.h */,
+				220C06F622D6DC200058D065 /* AHSMtpCmdArgvParser.m */,
+				220C07A622DC873B0058D065 /* AHSMtpCreatFolderCmd.h */,
+				220C07A722DC873B0058D065 /* AHSMtpCreatFolderCmd.m */,
+				220C078C22DC23B40058D065 /* AHSMtpDetectDeviceCmd.h */,
+				220C078D22DC23B40058D065 /* AHSMtpDetectDeviceCmd.m */,
+				220C079822DC5D4E0058D065 /* AHSMtpDevice.h */,
+				220C079922DC5D4E0058D065 /* AHSMtpDevice.m */,
+				220C07A322DC739B0058D065 /* AHSMtpPrintDevideCmd.h */,
+				220C07A422DC739B0058D065 /* AHSMtpPrintDevideCmd.m */,
+				220C078F22DC23D60058D065 /* AHSMtpSendFileToDeviceCmd.h */,
+				220C079022DC23D60058D065 /* AHSMtpSendFileToDeviceCmd.m */,
+				220C06F922D6E9160058D065 /* include */,
+				220C06F822D6E9070058D065 /* lib */,
+				220C06EE22D6DA8F0058D065 /* main.m */,
+			);
+			path = "mtp-cli";
+			sourceTree = "<group>";
+		};
+		220C06F822D6E9070058D065 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				220C070022D712710058D065 /* libusb-1.0.a */,
+				220C06FA22D6E96D0058D065 /* libmtp.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		220C06F922D6E9160058D065 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				220C079B22DC66B70058D065 /* NSObject+YYModel.h */,
+				220C079E22DC66B70058D065 /* NSObject+YYModel.m */,
+				220C079C22DC66B70058D065 /* YYClassInfo.h */,
+				220C079D22DC66B70058D065 /* YYClassInfo.m */,
+				220C06FC22D6E9760058D065 /* libmtp.h */,
+				220C070222D712790058D065 /* libusb.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		220C070322D714610058D065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				220C074622D71FDB0058D065 /* Foundation.framework */,
+				220C070422D714610058D065 /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220C06EA22D6DA8F0058D065 /* mtp-cli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220C06F222D6DA8F0058D065 /* Build configuration list for PBXNativeTarget "mtp-cli" */;
+			buildPhases = (
+				220C06E722D6DA8F0058D065 /* Sources */,
+				220C06E822D6DA8F0058D065 /* Frameworks */,
+				220C06E922D6DA8F0058D065 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mtp-cli";
+			productName = "mtp-cli";
+			productReference = 220C06EB22D6DA8F0058D065 /* mtp-cli */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220C06E322D6DA8F0058D065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sam;
+				TargetAttributes = {
+					220C06EA22D6DA8F0058D065 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 220C06E622D6DA8F0058D065 /* Build configuration list for PBXProject "mtp-cli" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 220C06E222D6DA8F0058D065;
+			productRefGroup = 220C06EC22D6DA8F0058D065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220C06EA22D6DA8F0058D065 /* mtp-cli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220C06E722D6DA8F0058D065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C07A022DC66B70058D065 /* NSObject+YYModel.m in Sources */,
+				220C079422DC23F30058D065 /* AHSMtpCmd.m in Sources */,
+				220C078E22DC23B40058D065 /* AHSMtpDetectDeviceCmd.m in Sources */,
+				220C06F722D6DC200058D065 /* AHSMtpCmdArgvParser.m in Sources */,
+				220C079122DC23D60058D065 /* AHSMtpSendFileToDeviceCmd.m in Sources */,
+				220C079F22DC66B70058D065 /* YYClassInfo.m in Sources */,
+				220C06EF22D6DA8F0058D065 /* main.m in Sources */,
+				220C079A22DC5D4E0058D065 /* AHSMtpDevice.m in Sources */,
+				220C07A822DC873B0058D065 /* AHSMtpCreatFolderCmd.m in Sources */,
+				220C07A522DC739B0058D065 /* AHSMtpPrintDevideCmd.m in Sources */,
+				220C079722DC2C750058D065 /* AHSLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		220C06F022D6DA8F0058D065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		220C06F122D6DA8F0058D065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		220C06F322D6DA8F0058D065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBH3U98L88;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mtp-cli/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		220C06F422D6DA8F0058D065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBH3U98L88;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mtp-cli/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220C06E622D6DA8F0058D065 /* Build configuration list for PBXProject "mtp-cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C06F022D6DA8F0058D065 /* Debug */,
+				220C06F122D6DA8F0058D065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220C06F222D6DA8F0058D065 /* Build configuration list for PBXNativeTarget "mtp-cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C06F322D6DA8F0058D065 /* Debug */,
+				220C06F422D6DA8F0058D065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220C06E322D6DA8F0058D065 /* Project object */;
+}
